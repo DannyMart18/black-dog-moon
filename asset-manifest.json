@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/black-dog-moon/static/css/main.1fc5a2c7.css",
-    "main.js": "/black-dog-moon/static/js/main.9190e633.js",
-    "static/js/453.a27ead27.chunk.js": "/black-dog-moon/static/js/453.a27ead27.chunk.js",
-    "static/media/bandImage.jpg": "/black-dog-moon/static/media/bandImage.e6dd5b2279e08be646d0.jpg",
-    "static/media/bandPhoto.jpeg": "/black-dog-moon/static/media/bandPhoto.6af1b60bbc2c60b9393d.jpeg",
-    "static/media/logo.PNG": "/black-dog-moon/static/media/logo.71ca5442aac69456cb3d.PNG",
-    "index.html": "/black-dog-moon/index.html",
-    "main.1fc5a2c7.css.map": "/black-dog-moon/static/css/main.1fc5a2c7.css.map",
-    "main.9190e633.js.map": "/black-dog-moon/static/js/main.9190e633.js.map",
-    "453.a27ead27.chunk.js.map": "/black-dog-moon/static/js/453.a27ead27.chunk.js.map"
+    "main.css": "/static/css/main.1fc5a2c7.css",
+    "main.js": "/static/js/main.c240ecb1.js",
+    "static/js/453.a27ead27.chunk.js": "/static/js/453.a27ead27.chunk.js",
+    "static/media/bandImage.jpg": "/static/media/bandImage.e6dd5b2279e08be646d0.jpg",
+    "static/media/bandPhoto.jpeg": "/static/media/bandPhoto.6af1b60bbc2c60b9393d.jpeg",
+    "static/media/logo.PNG": "/static/media/logo.71ca5442aac69456cb3d.PNG",
+    "index.html": "/index.html",
+    "main.1fc5a2c7.css.map": "/static/css/main.1fc5a2c7.css.map",
+    "main.c240ecb1.js.map": "/static/js/main.c240ecb1.js.map",
+    "453.a27ead27.chunk.js.map": "/static/js/453.a27ead27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fc5a2c7.css",
-    "static/js/main.9190e633.js"
+    "static/js/main.c240ecb1.js"
   ]
 }
