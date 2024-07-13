@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/black-dog-moon/static/css/main.0c6f2a00.css",
-    "main.js": "/black-dog-moon/static/js/main.c36418c7.js",
+    "main.js": "/black-dog-moon/static/js/main.705b6057.js",
     "static/js/453.a27ead27.chunk.js": "/black-dog-moon/static/js/453.a27ead27.chunk.js",
     "static/media/CD.JPG": "/black-dog-moon/static/media/CD.c9ffcd9b7ffef3e9773f.JPG",
     "static/media/Vinyl.JPG": "/black-dog-moon/static/media/Vinyl.45be4a15329e6aa2a240.JPG",
@@ -11,11 +11,11 @@
     "static/media/logo.PNG": "/black-dog-moon/static/media/logo.71ca5442aac69456cb3d.PNG",
     "index.html": "/black-dog-moon/index.html",
     "main.0c6f2a00.css.map": "/black-dog-moon/static/css/main.0c6f2a00.css.map",
-    "main.c36418c7.js.map": "/black-dog-moon/static/js/main.c36418c7.js.map",
+    "main.705b6057.js.map": "/black-dog-moon/static/js/main.705b6057.js.map",
     "453.a27ead27.chunk.js.map": "/black-dog-moon/static/js/453.a27ead27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6f2a00.css",
-    "static/js/main.c36418c7.js"
+    "static/js/main.705b6057.js"
   ]
 }
