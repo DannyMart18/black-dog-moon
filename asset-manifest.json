@@ -1,10 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.4332aa66.css",
-    "main.js": "/static/js/main.c7e24cdd.js",
+    "main.js": "/static/js/main.7b9e2464.js",
     "static/js/453.a27ead27.chunk.js": "/static/js/453.a27ead27.chunk.js",
-    "static/media/CD.JPG": "/static/media/CD.c9ffcd9b7ffef3e9773f.JPG",
-    "static/media/Vinyl.JPG": "/static/media/Vinyl.45be4a15329e6aa2a240.JPG",
+    "static/media/vinyl.jpeg": "/static/media/vinyl.27017b8ab6650d550c58.jpeg",
+    "static/media/cd.jpeg": "/static/media/cd.d42ef676da26fe122847.jpeg",
+    "static/media/bandPav1.jpg": "/static/media/bandPav1.f0981109805c3d2a7a8c.jpg",
+    "static/media/dylanPav.jpg": "/static/media/dylanPav.334d4629496233605790.jpg",
+    "static/media/nickyPav.jpg": "/static/media/nickyPav.5f3cfc4993305629a853.jpg",
+    "static/media/steviePav.jpg": "/static/media/steviePav.73eb5b1c72d078ad551d.jpg",
+    "static/media/conalPav2.jpg": "/static/media/conalPav2.155984143e76df29a587.jpg",
     "static/media/cornerstone.jpg": "/static/media/cornerstone.cbaa827c3cd0a20965d1.jpg",
     "static/media/bandImage.jpg": "/static/media/bandImage.e6dd5b2279e08be646d0.jpg",
     "static/media/bandPhoto.jpeg": "/static/media/bandPhoto.6af1b60bbc2c60b9393d.jpeg",
@@ -12,11 +17,11 @@
     "static/media/logo.PNG": "/static/media/logo.71ca5442aac69456cb3d.PNG",
     "index.html": "/index.html",
     "main.4332aa66.css.map": "/static/css/main.4332aa66.css.map",
-    "main.c7e24cdd.js.map": "/static/js/main.c7e24cdd.js.map",
+    "main.7b9e2464.js.map": "/static/js/main.7b9e2464.js.map",
     "453.a27ead27.chunk.js.map": "/static/js/453.a27ead27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4332aa66.css",
-    "static/js/main.c7e24cdd.js"
+    "static/js/main.7b9e2464.js"
   ]
 }
