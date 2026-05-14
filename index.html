@@ -1,1 +1,347 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.png"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Black Dog Moon</title><script defer="defer" src="/static/js/main.2553c7cd.js"></script><link href="/static/css/main.ffec7880.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Dog Moon — Official Site</title>
+    <meta name="description" content="Black Dog Moon — blues-infused rock n roll from Northern Ireland. Booking, press and management enquiries welcome." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+    <div class="navbar-logo">
+        <a href="#home"><img src="assets/logo.PNG" alt="Black Dog Moon" /></a>
+    </div>
+    <div class="navbar-toggle" id="navToggle">&#9776;</div>
+    <ul class="navbar-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact"><span class="nav-cta">Book / Contact</span></a></li>
+    </ul>
+</nav>
+
+<!-- ===== HOME ===== -->
+<section id="home" class="page">
+
+    <div class="hero-section">
+        <img src="assets/bandImage.jpg" alt="Black Dog Moon live" class="hero-image" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tag">Northern Ireland</p>
+            <h1 class="hero-title">Black Dog Moon</h1>
+            <p class="hero-sub">Blues-Infused Rock 'n' Roll</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Book Us</a>
+                <a href="#about" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="stats-strip">
+        <div class="stat">
+            <span class="stat-number">8/10</span>
+            <span class="stat-label">Powerplay Rock &amp; Metal</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Studio Albums</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+            <span class="stat-number">Planet Rockstock</span>
+            <span class="stat-label">Performed At</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+            <span class="stat-number">2022</span>
+            <span class="stat-label">Est. County Down</span>
+        </div>
+    </div>
+
+    <div class="press-section">
+        <blockquote class="press-quote">
+            <p>"A record dripping with swagger, bite, and big-stage energy."</p>
+            <cite>Powerplay Rock &amp; Metal, Mar/Apr 2026 &nbsp;&middot;&nbsp; <strong>8/10</strong></cite>
+        </blockquote>
+    </div>
+
+    <div class="home-grid">
+        <div class="home-card wide">
+            <div class="home-card-label">Latest News</div>
+            <h2>Hell and Back &mdash; Out Now</h2>
+            <p>
+                The sophomore album from Black Dog Moon dropped November 28, 2025 &mdash; road-tested at Planet Rockstock
+                and already turning heads in the rock press. Featuring the single <em>Neon Queen</em>, it's the
+                sound of a band firing on all cylinders.
+            </p>
+            <a href="https://conalmontgomery.bandcamp.com/album/hell-and-back" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">
+                <i class="fas fa-external-link-alt"></i> Listen on Bandcamp
+            </a>
+        </div>
+
+        <div class="home-card">
+            <div class="home-card-label">Watch Live</div>
+            <h2>Belfast Empire, Jan 2025</h2>
+            <div class="video-embed">
+                <iframe
+                    src="https://www.youtube.com/embed/TV09xZ2llVM"
+                    title="Black Dog Moon live at Belfast Empire"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="shows-section">
+        <h2 class="section-title">Upcoming Shows</h2>
+        <div class="shows-list" id="upcomingEvents"></div>
+        <p class="shows-note">More dates to be announced &mdash; follow the socials for updates.</p>
+    </div>
+
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="page hidden">
+    <div class="page-container">
+
+        <div class="page-hero">
+            <img src="assets/bandPhoto.jpeg" alt="Black Dog Moon" class="page-hero-img" />
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-text"><h1>About</h1></div>
+        </div>
+
+        <div class="two-col">
+            <div class="two-col-main">
+                <h2 class="section-title left">Black Dog Moon</h2>
+                <p class="bio-intro">
+                    Five-piece blues-infused rock 'n' roll out of County Down, Northern Ireland. Formed in 2022,
+                    Black Dog Moon have built a reputation as one of the most electrifying live acts on the Irish rock circuit.
+                </p>
+                <p>
+                    Their self-titled debut album arrived in June 2024 &mdash; a statement of intent from a band
+                    who wear their influences loudly and play them with conviction. Follow-up single
+                    <em>Neon Queen</em> sharpened the edges in September 2025, setting up sophomore album
+                    <em>Hell and Back</em>, released November 28, 2025 and road-tested at Planet Rockstock.
+                </p>
+                <p>
+                    <em>Hell and Back</em> earned a glowing <strong>8/10 from Powerplay Rock &amp; Metal</strong>
+                    in their March/April 2026 edition &mdash; cementing Black Dog Moon as a band very much in the ascendant.
+                </p>
+
+                <h3 class="subsection-title">The Band</h3>
+                <ul class="band-list">
+                    <li><span class="member-name">Conal Montgomery</span><span class="member-role">Vocals</span></li>
+                    <li><span class="member-name">Nicky Brown</span><span class="member-role">Bass / Vocals</span></li>
+                    <li><span class="member-name">Stevie Glackin</span><span class="member-role">Drums</span></li>
+                    <li><span class="member-name">Dylan Kelly</span><span class="member-role">Guitar / Vocals</span></li>
+                    <li><span class="member-name">Daniel Martin</span><span class="member-role">Guitar</span></li>
+                </ul>
+
+                <div class="cta-row">
+                    <a href="#contact" class="btn btn-primary">Booking Enquiries</a>
+                    <a href="mailto:conaleaf@outlook.com" class="btn btn-outline">Press &amp; Media</a>
+                </div>
+            </div>
+
+            <div class="two-col-side">
+                <div class="press-card">
+                    <i class="fas fa-quote-left press-icon"></i>
+                    <p>"A record dripping with swagger, bite, and big-stage energy."</p>
+                    <cite>Powerplay Rock &amp; Metal &mdash; 8/10</cite>
+                </div>
+
+                <div class="about-spotify">
+                    <h3 class="subsection-title">Stream</h3>
+                    <iframe
+                        style="border-radius:12px"
+                        src="https://open.spotify.com/embed/artist/1sZjGqGKcNcfmoHryaLDW5?utm_source=generator"
+                        width="100%" height="280" frameborder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="links-card">
+                    <h3 class="subsection-title">Key Links</h3>
+                    <a href="https://conalmontgomery.bandcamp.com/" target="_blank" rel="noopener noreferrer" class="link-row">
+                        <i class="fab fa-bandcamp"></i> Bandcamp
+                    </a>
+                    <a href="https://www.youtube.com/@blackdogmoon-6087" target="_blank" rel="noopener noreferrer" class="link-row">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100090149589998" target="_blank" rel="noopener noreferrer" class="link-row">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="https://www.instagram.com/blackdogmoon5/" target="_blank" rel="noopener noreferrer" class="link-row">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== MUSIC ===== -->
+<section id="music" class="page hidden">
+    <div class="page-container">
+        <h1 class="section-title center">Music &amp; Merch</h1>
+        <p class="section-sub center">Available on Bandcamp &mdash; CD, vinyl, digital download and merch.</p>
+
+        <div class="merch-grid">
+            <div class="merch-card">
+                <a href="https://conalmontgomery.bandcamp.com/album/hell-and-back" target="_blank" rel="noopener noreferrer">
+                    <div class="merch-img-wrap">
+                        <img src="assets/hellandback.png" alt="Hell and Back" />
+                        <div class="merch-hover"><i class="fas fa-external-link-alt"></i> Buy on Bandcamp</div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>Hell and Back</h3>
+                        <p>Sophomore album &mdash; November 2025</p>
+                        <span class="merch-tag">CD &middot; Vinyl &middot; Digital</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="merch-card">
+                <a href="https://conalmontgomery.bandcamp.com/album/black-dog-moon" target="_blank" rel="noopener noreferrer">
+                    <div class="merch-img-wrap">
+                        <img src="assets/cd.jpeg" alt="Black Dog Moon debut album" />
+                        <div class="merch-hover"><i class="fas fa-external-link-alt"></i> Buy on Bandcamp</div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>Black Dog Moon</h3>
+                        <p>Debut album &mdash; June 2024</p>
+                        <span class="merch-tag">CD &middot; Vinyl &middot; Digital</span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="merch-card">
+                <a href="https://conalmontgomery.bandcamp.com/merch/black-dog-moon-logo-t-shirt" target="_blank" rel="noopener noreferrer">
+                    <div class="merch-img-wrap">
+                        <img src="assets/tshirt.JPG" alt="Black Dog Moon T-Shirt" />
+                        <div class="merch-hover"><i class="fas fa-external-link-alt"></i> Buy on Bandcamp</div>
+                    </div>
+                    <div class="merch-info">
+                        <h3>Logo T-Shirt</h3>
+                        <p>Official band merch</p>
+                        <span class="merch-tag">Apparel</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="page hidden">
+    <div class="gallery-page">
+        <h1 class="section-title center">Gallery</h1>
+        <div id="galleryContent"></div>
+    </div>
+    <div class="image-modal hidden" id="imageModal">
+        <span class="close-btn" id="modalClose">&times;</span>
+        <img class="modal-image" id="modalImage" src="" alt="" />
+    </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="page hidden">
+    <div class="page-container">
+
+        <div class="contact-hero">
+            <h1>Get In Touch</h1>
+            <p>For booking, management and press enquiries &mdash; don't be shy.</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card booking-card">
+                <div class="contact-card-icon"><i class="fas fa-calendar-check"></i></div>
+                <h2>Booking &amp; Management</h2>
+                <p>
+                    Black Dog Moon are available for festivals, venue shows, support slots and private events
+                    across Ireland and the UK.
+                </p>
+                <a href="mailto:conaleaf@outlook.com?subject=Booking Enquiry - Black Dog Moon" class="btn btn-primary full-width">
+                    <i class="fas fa-envelope"></i> Send a Booking Enquiry
+                </a>
+                <div class="contact-detail">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <a href="mailto:conaleaf@outlook.com">conaleaf@outlook.com</a>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-newspaper"></i></div>
+                <h2>Press &amp; Media</h2>
+                <p>For interviews, reviews, features and press passes &mdash; we'd love to hear from you.</p>
+                <a href="mailto:conaleaf@outlook.com?subject=Press Enquiry - Black Dog Moon" class="btn btn-outline full-width">
+                    <i class="fas fa-envelope"></i> Press Enquiry
+                </a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-guitar"></i></div>
+                <h2>Other Bands</h2>
+                <p>
+                    Looking to share a bill, swap support slots or put something together?
+                    Get in touch &mdash; we're always up for working with likeminded acts.
+                </p>
+                <a href="mailto:conaleaf@outlook.com?subject=Collaboration - Black Dog Moon" class="btn btn-outline full-width">
+                    <i class="fas fa-envelope"></i> Let's Talk
+                </a>
+            </div>
+        </div>
+
+        <div class="socials-row">
+            <h2 class="section-title center">Find Us</h2>
+            <div class="socials-list">
+                <a href="https://www.facebook.com/profile.php?id=100090149589998" target="_blank" rel="noopener noreferrer" class="social-pill"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://www.instagram.com/blackdogmoon5/" target="_blank" rel="noopener noreferrer" class="social-pill"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://twitter.com/blackdogmoon" target="_blank" rel="noopener noreferrer" class="social-pill"><i class="fab fa-twitter"></i> Twitter / X</a>
+                <a href="https://www.youtube.com/@blackdogmoon-6087" target="_blank" rel="noopener noreferrer" class="social-pill"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="https://conalmontgomery.bandcamp.com/" target="_blank" rel="noopener noreferrer" class="social-pill"><i class="fab fa-bandcamp"></i> Bandcamp</a>
+            </div>
+        </div>
+
+        <div class="contact-photos">
+            <img src="assets/bandPav1.jpg" alt="Black Dog Moon live" />
+            <img src="assets/conalPav2.jpg" alt="Conal on stage" />
+            <img src="assets/steviePav.jpg" alt="Stevie on drums" />
+            <img src="assets/dylanPav.jpg" alt="Dylan on guitar" />
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <img src="assets/logo.PNG" alt="Black Dog Moon" class="footer-logo" />
+        <p class="footer-tagline">Blues-Infused Rock 'n' Roll &mdash; County Down, Northern Ireland</p>
+        <p class="footer-contact">Booking &amp; enquiries: <a href="mailto:conaleaf@outlook.com">conaleaf@outlook.com</a></p>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/profile.php?id=100090149589998" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/blackdogmoon5/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@blackdogmoon-6087" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://conalmontgomery.bandcamp.com/" target="_blank" rel="noopener noreferrer" aria-label="Bandcamp"><i class="fab fa-bandcamp"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
