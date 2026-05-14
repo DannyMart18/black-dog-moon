@@ -306,12 +306,15 @@ img { display: block; }
 }
 @media (max-width: 768px) {
     .hero-section {
+        display: flex;
+        flex-direction: column;
         height: auto;
         min-height: 0;
         background: #0d0d0d;
     }
 
     .hero-image {
+        order: 1;
         height: auto;
         max-height: 72vh;
         object-fit: contain;
@@ -319,9 +322,20 @@ img { display: block; }
         background: #0d0d0d;
     }
 
+    .hero-overlay {
+        display: none;
+    }
+
     .hero-content {
-        bottom: 10%;
-        width: 94%;
+        position: relative;
+        order: 2;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        width: 100%;
+        max-width: none;
+        padding: 26px 20px 6px;
+        background: linear-gradient(to bottom, rgba(13, 13, 13, 0), rgba(13, 13, 13, 0.92) 18%, rgba(13, 13, 13, 1));
     }
 
     .hero-sub {
