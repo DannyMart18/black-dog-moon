@@ -7,10 +7,30 @@ const upcomingEvents = [
     { date: "1 August 2026",   city: "Darragh Cross", venue: "Cornerstone Festival" },
     { date: "2 August 2026",   city: "Darragh Cross", venue: "Cornerstone Festival" },
     { date: "22 August 2026",  city: "Darragh Cross", venue: "The Oaks" },
-    { date: "30 August 2026",  city: "Newcastle",     venue: "Donard" }
+    { date: "12 September 2026", city: "Newcastle",     venue: "Marine Bar" }
 ];
 
 const galleryData = {
+    "The Diamond - Ahoghill - 27-06-2026": [
+        "04654c2c-1fb9-476d-bf6d-369f4cb41761.JPG",
+        "069f0234-1e30-418a-9678-39ce1c0b5567 2.JPG",
+        "069f0234-1e30-418a-9678-39ce1c0b5567.sJPG",
+        "12b8ac51-85c4-4d4f-acd9-2e871106b881.JPG",
+        "2a9a83fd-086d-4274-a8c1-1071ae203240.JPG",
+        "508076b8-17f7-487f-97c7-86ef2929baf5 2.JPG",
+        "508076b8-17f7-487f-97c7-86ef2929baf5.JPG",
+        "60a987e2-b62e-4ab0-bb36-a96cfd70a1c6.JPG",
+        "72d31ac2-6ef9-402f-8e93-4b30448fab95.JPG",
+        "79b204a0-3a21-4d59-a49a-21b20544182a.JPG",
+        "7c1675af-2584-4bb8-afb2-83095a8ebf88.JPG",
+        "7e39940a-ce5a-4bb7-951c-31cf1ff83721.JPG",
+        "a1106921-75ba-420c-a0e9-765df4608d5d.JPG",
+        "a3821d9f-928b-4468-a566-f176ac0a3023 2.JPG",
+        "a3821d9f-928b-4468-a566-f176ac0a3023.JPG",
+        "a6efce36-d71f-4723-929d-5fb7af1656f8.JPG",
+        "aebe375c-4952-40f4-b4e6-4e96a1e2ecfc.JPG",
+        "faca6f36-346c-4cae-832d-8fdc87f30e61.JPG"
+    ],
     "Belfast Empire 24-01-25": [
         "IMG_3859 Edited.jpg", "IMG_3861 Edited.jpg", "IMG_3867 Edited.jpg",
         "IMG_3871 Edited.jpg", "IMG_3873 Edited.jpg", "IMG_3876 Edited.jpg",
