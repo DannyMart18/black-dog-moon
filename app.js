@@ -11,10 +11,10 @@ const upcomingEvents = [
 ];
 
 const galleryData = {
-    "The Diamond - Ahoghill - 27-06-2026": [
+    "Diamond": [
         "04654c2c-1fb9-476d-bf6d-369f4cb41761.JPG",
         "069f0234-1e30-418a-9678-39ce1c0b5567 2.JPG",
-        "069f0234-1e30-418a-9678-39ce1c0b5567.sJPG",
+        "069f0234-1e30-418a-9678-39ce1c0b5567.JPG",
         "12b8ac51-85c4-4d4f-acd9-2e871106b881.JPG",
         "2a9a83fd-086d-4274-a8c1-1071ae203240.JPG",
         "508076b8-17f7-487f-97c7-86ef2929baf5 2.JPG",
