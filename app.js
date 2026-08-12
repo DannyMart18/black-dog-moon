@@ -7,7 +7,10 @@ const upcomingEvents = [
     { date: "1 August 2026",   city: "Darragh Cross", venue: "Cornerstone Festival" },
     { date: "2 August 2026",   city: "Darragh Cross", venue: "Cornerstone Festival" },
     { date: "22 August 2026",  city: "Darragh Cross", venue: "The Oaks" },
-    { date: "12 September 2026", city: "Whitehead",     venue: "Marine Bar" }
+    { date: "12 September 2026", city: "Whitehead",     venue: "Marine Bar" },
+    { date: "18 September 2026", city: "Downpatrick",     venue: "Down Arts Centre" },
+    { date: "19 September 2026", city: "Ahoghill",     venue: "Diamond Rock Club" },
+    { date: "18 November 2026", city: "Newcastle",     venue: "Donard Bar" }
 ];
 
 const galleryData = {
